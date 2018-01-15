@@ -10,5 +10,5 @@ public interface LoginRepository {
     User getUser();
 
     // Method for saving the details of the user
-    void saveUser();
+    void saveUser(User user);
 }

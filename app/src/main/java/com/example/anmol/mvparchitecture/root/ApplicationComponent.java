@@ -1,5 +1,6 @@
 package com.example.anmol.mvparchitecture.root;
 
+import com.example.anmol.mvparchitecture.LoginModule;
 import com.example.anmol.mvparchitecture.MainActivity;
 
 import javax.inject.Singleton;
@@ -10,7 +11,7 @@ import dagger.Component;
  * Created by anmol on 15/1/18.
  */
 @Singleton
-@Component(modules = {ApplicationModule.class})
+@Component(modules = {ApplicationModule.class , LoginModule.class})
 public interface ApplicationComponent {
     void inject(MainActivity target);
 }

@@ -28,7 +28,7 @@ public interface LoginActivityMVP {
 
     interface Model{
         void createUser(String fname , String lastName);
-        void getUser();
+        User getUser();
     }
 
 }
