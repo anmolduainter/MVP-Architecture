@@ -1,6 +1,6 @@
 # MVP
 
-## Dagger 2 implementation
+## Dagger 2 and JUnit Testing with Mockito implementation
 
 #### To understand Dagger 2 it is important (and probably a bit hard in the beginning) to know about the fundamentals of dependency injection and the concepts of each one of these guys:
 
